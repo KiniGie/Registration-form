@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+  width: 200px;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: rgb(72, 72, 207);
+}
+
+.form-register {
+  padding: 80px 40px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.form-register .box-input {
+  position: relative;
+}
+.form-register .box-input input {
+  width: 100%;
+  height: 40px;
+  padding: 0 8px;
+  font-size: 14px;
+  border: 2px solid #c2c0c0;
+}
+.form-register .box-input .pos-center {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.form-register .box-input .text-error {
+  color: red;
+  font-size: 12px;
+  right: 36px;
+}
+.form-register .box-input .icon {
+  right: 10px;
+}
+.form-register .box-input .fa-check-circle {
+  color: #008000;
+}
+.form-register .box-input .fa-exclamation-circle {
+  color: red;
+}
+.form-register .button-box {
+  display: flex;
+  justify-content: center;
+}
+.form-register .button-box .btn-signup {
+  color: #fff;
+  background-color: #ee2ba0;
+  padding: 12px 8px;
+  width: 400px;
+  border: none;
+  font-size: 15px;
+}/*# sourceMappingURL=style.css.map */
